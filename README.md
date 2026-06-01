@@ -21,10 +21,7 @@ trabML/
 ```
 ---
 ### Como rodar
-1. Clone o repositório e instale as dependências:
-
-```pip install -r requirements.txt```
-
-Ajuste os caminhos dos CSVs em config/paths.py para o seu ambiente.
-Execute o main.ipynb do início ao fim.
+1. Clone o repositório e instale as dependências: ```pip install -r requirements.txt```
+- Ajuste os caminhos dos CSVs em ```config/paths.py``` para o seu ambiente.
+- Execute o ```main.ipynb``` do início ao fim.
 

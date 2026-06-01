@@ -1,4 +1,3 @@
-# utils/evaluation.py
 from sklearn.metrics import accuracy_score, classification_report
 
 def avaliar_modelo(modelo, X_test, y_test, nome="Modelo"):

@@ -7,6 +7,9 @@ trabalhoML2026/
 ├── configs/
 │   ├── paths.py          # caminhos dos arquivos CSV
 │   └── constants.py      # RANDOM_STATE, limiar para considerar alta demanda, etc.
+├── EDA/
+│   ├── estatisticas.py      # calculo das estatisticas
+│   └── graficos.py          # plot dos graficos
 ├── dados/
 │   ├── carregamento.py      # leitura e merge dos CSVs
 │   └── preprocessamento.py  # criação de features e target
@@ -17,6 +20,7 @@ trabalhoML2026/
 │   ├── avaliacao.py     # métricas e classification report
 │   └── visualizacao.py  # gráficos de feature importance 
 ├── main.ipynb            # notebook principal
+├── run_eda.ipynb         # notebook para todar a eda
 └── requirements.
 ```
 ---

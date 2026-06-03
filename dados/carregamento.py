@@ -9,6 +9,7 @@ def carregar_dados():
     emprestimos = pd.read_csv(ARQUIVO_CSV, sep=None, engine="python")
     emprestimos[COLUNAS_MESES] = emprestimos[COLUNAS_MESES].apply(pd.to_numeric, errors="coerce").fillna(0)
 
+    # pega exemplares repetidos do mesmo item do acervo, junta tudo em uma única linha e recalcula os totais mensais para cada item do acervo
     acervos = emprestimos.groupby(
         ["Classificação", "Código do acervo", "Título"],
         as_index=False

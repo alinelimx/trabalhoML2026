@@ -3,7 +3,7 @@ Repositório destinado ao trabalho da disciplina de Aprendizado de Máquina
 ---
 ### Estrutura
 ```
-trabML/
+trabalhoML2026/
 ├── configs/
 │   ├── paths.py          # caminhos dos arquivos CSV
 │   └── constants.py      # RANDOM_STATE, limiar para considerar alta demanda, etc.

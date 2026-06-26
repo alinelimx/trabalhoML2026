@@ -16,6 +16,7 @@ trabalhoML2026/
 ├── modelos/
 │   ├── random_forest.py     
 │   └── xgboost.py
+│   └── modelo_tfidf.py
 ├── utils/
 │   ├── avaliacao.py     # métricas e classification report
 │   └── visualizacao.py  # gráficos de feature importance 

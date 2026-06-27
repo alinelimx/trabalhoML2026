@@ -56,7 +56,7 @@ def plotar_coeficiente_variacao(estatisticas):
     for bar, val in zip(bars, top20["CV_%"]):
         ax.text(bar.get_width() + 0.5, bar.get_y() + bar.get_height() / 2, f"{val:.1f}%", va="center", fontsize=9)
     plt.tight_layout()
-    plt.savefig(PASTA_GRAFICOS / "coeficienteVariacao.png")
+    plt.savefig(PASTA_GRAFICOS / "coeficiente_variacao.png")
     plt.close()
 
 def plotar_correlacao(acervos, estatisticas, colunas_meses):
@@ -70,7 +70,7 @@ def plotar_correlacao(acervos, estatisticas, colunas_meses):
                 linewidths=0.5, ax=ax, annot_kws={"size": 8})
     ax.set_title("Correlação de Pearson entre as 10 classificações com maior volume de empréstimos")
     plt.tight_layout()
-    plt.savefig(PASTA_GRAFICOS / "matrizCorrelacao.png")
+    plt.savefig(PASTA_GRAFICOS / "matriz_correlacao.png")
     plt.close()
 
 def plotar_serie_temporal(acervos, colunas_meses):
@@ -89,5 +89,5 @@ def plotar_serie_temporal(acervos, colunas_meses):
     ax.grid(axis="y", linestyle="--", alpha=0.5)
     ax.grid(axis="y", which="minor", linestyle=":", alpha=0.3)
     plt.tight_layout()
-    plt.savefig(PASTA_GRAFICOS / "serietemporal.png")
+    plt.savefig(PASTA_GRAFICOS / "serie_temporal.png")
     plt.close()
